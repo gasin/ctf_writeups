@@ -20,6 +20,6 @@ RUN cd /usr/share/nginx/html && \
 ```
 
 ## 解法
-`curl`のオプションで、末尾のみ取得するというものがあるそれを使うとフラグが取れる
+`curl`のオプションで、末尾のみ取得するというものがあるので。それを使うとフラグが取れる
 
 ```curl -r -100 https://64bps-web.wanictf.org/2gb.txt```

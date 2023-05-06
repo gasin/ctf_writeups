@@ -41,3 +41,14 @@ bool compare(char param_1,int param_2)
 ```
 
 gdbで処理を追っていくとスタックにフラグが格納されるタイミングがあるのでそれを取る
+
+```
+0x007fffffffe060│+0x0000: 0x0000000000000000     ← $rsp
+0x007fffffffe068│+0x0008: 0x0000004600000000
+0x007fffffffe070│+0x0010: "FLAG{vKCsq3jl4j_Y0uMade1"
+0x007fffffffe078│+0x0018: "sq3jl4j_Y0uMade1"
+0x007fffffffe080│+0x0020: "Y0uMade1"
+0x007fffffffe088│+0x0028: 0x0000000000000000
+0x007fffffffe090│+0x0030: 0x0000000000000000
+0x007fffffffe098│+0x0038: 0x2406165931708700
+```
